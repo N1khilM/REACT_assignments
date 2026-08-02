@@ -1,0 +1,22 @@
+Objective: Build a simple Bookmark Manager where users can save and organize links.
+
+Requirements
+
+1. Bookmark List Page
+
+Display list of bookmarks
+Show: title, URL, "Visit" link (opens URL), "Delete" button
+
+2. Add Bookmark Form
+
+Input for title, input for URL
+"Add" button saves a new bookmark
+Form clears after adding
+
+3. Search
+
+Search box filters bookmarks by title, live, case-insensitive
+
+4. Empty State
+
+If no bookmarks exist (or none match search), show "No bookmarks yet"
