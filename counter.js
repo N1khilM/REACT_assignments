@@ -1,3 +1,14 @@
+/*Concept: useState
+
+Requirements
+Increment
+Decrement
+Reset
+Increase by 5
+Decrease by 5
+Don't allow count below 0
+Display "Even" or "Odd"*/
+
 import { useState } from "react";
 
 export default function Counter() {
