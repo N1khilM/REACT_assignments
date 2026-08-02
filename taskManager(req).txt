@@ -1,0 +1,27 @@
+Objective: Build a simple Task Manager where users can track tasks and mark them done.
+
+Requirements
+
+1. Task List
+
+Display list of tasks
+Show: task title, a checkbox (or button) to mark it done/undone, "Delete" button
+Completed tasks show with a strikethrough style
+
+2. Add Task Form
+
+Input for task title
+"Add" button saves a new task (starts as not done)
+Form clears after adding
+
+3. Search
+
+Search box filters tasks by title, live, case-insensitive
+
+4. Filter by status
+
+Three buttons: "All", "Done", "Pending" — clicking one shows only tasks matching that status
+
+5. Empty State
+
+If no tasks match the current search + filter, show "No tasks found"
