@@ -1,0 +1,29 @@
+Objective: Build a simple Inventory Manager for a small shop.
+
+Requirements
+
+1. Item List
+
+Display list of items
+Show: item name, category, quantity, price, "Increase"/"Decrease" quantity buttons, "Delete" button
+If quantity is 0, show the item with a "Out of Stock" label
+
+2. Add Item Form
+
+Inputs for name, category, price (quantity always starts at 0)
+"Add" button saves a new item
+Form clears after adding
+Don't allow adding if name or price is empty — show a validation message
+
+3. Category Filter
+
+A dropdown (<select>) with options: "All", "Electronics", "Groceries", "Clothing"
+Selecting one shows only items in that category
+
+4. Total Value
+
+Show the total value of all currently visible (filtered) items — sum of price × quantity for each
+
+5. Empty State
+
+If no items match the current filter, show "No items found"
